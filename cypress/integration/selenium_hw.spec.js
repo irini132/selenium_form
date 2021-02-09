@@ -4,7 +4,6 @@ describe('MI HW', () => {
   });
 
 it ('Signin with valid creds', () =>{
-  cy.visit('https://the-internet.herokuapp.com/login')
   cy.get('[name="username"]').type('tomsmith')
   cy.get('[name="password"]').type('SuperSecretPassword!')
 
